@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "ops-manager": {
+      "type": "http",
+      "url": "https://ops-map-wine.vercel.app/api/mcp"
+    }
+  }
+}

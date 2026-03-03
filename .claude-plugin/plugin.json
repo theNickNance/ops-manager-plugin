@@ -1,0 +1,8 @@
+{
+  "name": "ops-manager",
+  "description": "Transform call transcripts into structured operational analysis. Generates workflows, function charts, and gap analyses, then ingests them into the Ops Manager platform via MCP.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Ops Manager"
+  }
+}

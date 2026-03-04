@@ -15,15 +15,14 @@ No manual copy-paste. No technical setup beyond installing the plugin.
 
 ## Installation
 
+### Cowork (Recommended)
+1. Download the latest [ops-manager-plugin.zip](https://github.com/theNickNance/ops-manager-plugin/releases/latest/download/ops-manager-plugin.zip)
+2. Open Cowork → Settings → Plugins
+3. Upload the zip file
+
 ### Claude Code
 ```bash
 claude plugins add /path/to/ops-manager-plugin
-```
-
-### Cowork
-Install via Settings > Plugins, or load with `--plugin-dir`:
-```bash
-claude --plugin-dir ./ops-manager-plugin
 ```
 
 ## Usage

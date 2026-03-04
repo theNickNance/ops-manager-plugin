@@ -66,11 +66,10 @@ The plugin gives Claude the skills to analyze transcripts and the MCP connection
 
 ### Installation
 
-1. Open Claude Cowork
-2. Go to **Settings → Plugins**
-3. Add the plugin by pointing it to the `ops-manager-plugin` directory:
-   - If you received the plugin as a folder, select that folder
-   - If you're loading from the command line: `claude --plugin-dir ./ops-manager-plugin`
+1. Download the plugin: [ops-manager-plugin.zip](https://github.com/theNickNance/ops-manager-plugin/releases/latest/download/ops-manager-plugin.zip)
+2. Open Claude Cowork
+3. Go to **Settings → Plugins**
+4. Upload the zip file
 
 ### First-Time MCP Authentication
 
@@ -89,7 +88,8 @@ The first time the plugin connects to Ops Map, you'll need to authenticate:
   - `/ops-manager:process-transcript` — Full pipeline (transcript → analysis → database)
   - `/ops-manager:ingest` — Manual ingest of pre-structured JSON
 
-- **6 AI Skills** that Claude uses automatically when relevant:
+- **7 AI Skills** that Claude uses automatically when relevant:
+  - `getting-started` — Welcomes new users and walks through setup
   - `transcript-pipeline` — Orchestrates the full analysis
   - `workflow-architect` — Extracts workflows from transcripts
   - `function-chart-architect` — Builds function charts from workflows

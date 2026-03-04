@@ -38,10 +38,17 @@ claude --plugin-dir ./ops-manager-plugin
 /ops-manager:ingest [paste structured JSON]
 ```
 
+### First Time?
+
+Just say hello. The plugin will walk you through authentication, show you what it can do, and get you ready to process your first transcript. No manual required.
+
+For a deeper dive, see the [full onboarding guide](docs/onboarding-guide.md).
+
 ### Skills (Auto-Invoked)
 
 The plugin includes domain skills that Claude uses automatically when relevant:
 
+- **getting-started** — Welcomes new users and walks through setup and first use
 - **transcript-pipeline** — Orchestrates the full analysis pipeline
 - **workflow-architect** — Extracts workflows from transcripts
 - **function-chart-architect** — Builds function charts from workflows
